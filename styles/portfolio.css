@@ -79,9 +79,46 @@ nav ul {
 }
 
 /* overall header background setup */
-.header-overall{
+.header-overall {
     background-color: #FFFFFF;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right, left;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    background: #FFF8F3;
+    padding: 130px 150px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    
+    /*     text-align: center;
+    margin-bottom: 30px;
+    width: 169px; don't use width if want to center..it doesn't work
+    height: 48px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818; */
+}
+
+.section-description {
+    margin-bottom: 30px;
+    width: 827px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
 }
